@@ -1,10 +1,12 @@
-import React from "react"
-import Header from "../components/header"
-import Meme from "../components/Meme"
+import React from "react";
+import "./index.css";
+import Header from "../components/header";
+import Meme from "../components/Meme";
+
 function App() {
 
   return (
-  <div>
+  <div className="App">
     <Header />
     <Meme/>
   </div>
